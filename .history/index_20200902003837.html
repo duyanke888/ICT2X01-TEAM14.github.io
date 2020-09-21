@@ -19,8 +19,7 @@
             
             <!--Main Menu-->
             <a-entity class="not-clickable" id="mainMenuScene">
-                <a-camera wasd-controls-enabled="true">
-                    <!--a-cursor 光标-->
+                <a-camera wasd-controls-enabled="false">
                     <a-cursor color="red" raycaster="objects: .menuButtons" cursor="fuse: true" position="0 0 -1">
                         <a-animation begin="click" easing="ease-in" attribute="scale" dur="150" fill="backwards" from="0.1 0.1 0.1"
                             to="1 1 1"></a-animation>
